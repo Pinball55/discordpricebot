@@ -27,7 +27,7 @@ repeat_counter = repeat_timer + int(1) # Stays fixed
 # ---> Etherscan API Key & URL
 url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest'
 parameters = {'symbol': 'JACY', 'convert': 'USD'}
-headers = {'Accepts': 'application/json','X-CMC_PRO_API_KEY':'142af1e1-7a30-424b-8483-4d3756183501'}
+headers = {'Accepts': 'application/json','X-CMC_PRO_API_KEY':'[ADD KEY'}
 
 # ---> Open Client
 bot = discord.Client()  # Gets the client object from discord.py synonymous with bot
